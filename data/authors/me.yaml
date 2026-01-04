@@ -1,116 +1,108 @@
 schema: hugoblox/author/v1
-slug: me
+slug: admin  # 建议改为 admin，方便首页统一调用
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Fuer Yang
+  given: Fuer
+  family: Yang
+  alternate: '杨俯尔'
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - Ph.D. Candidate
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🛰️" # 换成了卫星图标，符合 InSAR
+role: Ph.D. Student in Geophysics
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Fuer Yang is a Ph.D. student at Southern University of Science and Technology (SUSTech).
+  His research focuses on Geodesy and Geophysics, specifically utilizing **InSAR** technology
+  for time-series analysis and **fault slip inversion** to understand earthquake physics.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Southern University of Science and Technology
+    url: https://www.sustech.edu.cn/
 
+# ----------------------------------------------------
+# 🔗 链接修改区 (Links) - 这里就是你要找的地方！
+# ----------------------------------------------------
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:yangfe0624@gmail.com  # 👈 修改邮箱
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://fueryang0624.github.io/  # 👈 修改 GitHub
+    label: GitHub
+  # 如果你有谷歌学术，把下面这两行的 # 去掉并填入链接
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=你的ID
 
+  - icon: brands/researchgate
+    url: https://www.researchgate.net/profile/Fuer-Yang?ev=hdr_xprf
+    label: Research Gate
+
+# ----------------------------------------------------
+# 🔬 研究兴趣 (Interests)
+# ----------------------------------------------------
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - InSAR Time Series Analysis
+  - Fault Slip Inversion
+  - Geodynamics
+  - Earthquake Physics
 
+# ----------------------------------------------------
+# 🎓 教育背景 (Education) - 已按你的要求完善
+# ----------------------------------------------------
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Ph.D. in Geophysics
+    institution: Southern University of Science and Technology (SUSTech)
+    start: 2026-01-01  # 请根据实际入学时间修改
+    end: 
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Focusing on crustal deformation and fault mechanics.
+  - degree: M.Sc. in Geology
+    institution: Sun Yat-sen University (SYSU)
+    start: 2022-09-05
+    end: 2025-06-08
+    summary: |
+      Research on tectonic geomorphology and deformation.
+  - degree: B.Sc. in Geology
+    institution: Lanzhou University (LZU)
+    start: 2018-09-01
+    end: 2022-06-18
 
+# ----------------------------------------------------
+# 💼 科研经历 (Experience)
+# ----------------------------------------------------
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Graduate Research Assistant
+    org: SUSTech
+    start: 2026-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Conducting research on InSAR data processing using GMTSAR/ISCE.
+  - role: Research Assistant
+    org: Sun Yat-sen University
+    start: 2022-09-01
+    end: 2025-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Participated in geological surveys and tectonic analysis projects.
 
+# ----------------------------------------------------
+# 🛠️ 技能 (Skills)
+# ----------------------------------------------------
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Python (PyTorch/NumPy)
         level: 5
-      - label: Machine Learning
+      - label: MATLAB
         level: 5
-      - label: Cloud Computing
+      - label: GMT / Shell Script
         level: 4
-  - name: Research & Communication
+  - name: Domain Software
     items:
-      - label: Academic Writing
+      - label: GMTSAR
         level: 5
-      - label: Conference Presentations
+      - label: ISCE
         level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+      - label: GAMMA
+        level: 3
