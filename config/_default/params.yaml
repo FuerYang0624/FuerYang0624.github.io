@@ -19,12 +19,12 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Geophysics | InSAR | Crustal Deformation"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Personal academic homepage of Fuer Yang, featuring geophysics research, InSAR time-series analysis, crustal deformation, publications, projects, and study notes."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -37,9 +37,9 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "teal"                   # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "amber"
+      neutral: "slate"                  # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -91,8 +91,8 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -106,9 +106,9 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                      # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Built as a living academic portfolio. Please cite or link original sources when reusing public notes."
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -116,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}. Unless otherwise noted, content is shared for academic communication."
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -148,7 +148,7 @@ hugoblox:
         - /
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      contact: "mailto:yangfe0624@gmail.com"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -177,7 +177,13 @@ hugoblox:
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal
-    quick_actions: []
+    quick_actions:
+      - name: Publications
+        url: /#papers
+      - name: Research Notes
+        url: /blog/
+      - name: Contact
+        url: /#contact
 
   # ────────────────────────────────────────────────────────────────────────────
   # COMMENTS

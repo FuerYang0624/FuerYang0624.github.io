@@ -1,0 +1,129 @@
+/* Personal academic homepage refinements. Keep these classes small and reusable. */
+:root {
+  --academic-ink: #111827;
+  --academic-muted: #475569;
+  --academic-line: rgba(15, 23, 42, 0.12);
+  --academic-paper: rgba(255, 255, 255, 0.78);
+  --academic-teal: #0f766e;
+  --academic-gold: #b7791f;
+  --academic-rose: #be5b61;
+}
+
+.dark {
+  --academic-ink: #f8fafc;
+  --academic-muted: #cbd5e1;
+  --academic-line: rgba(226, 232, 240, 0.18);
+  --academic-paper: rgba(15, 23, 42, 0.58);
+}
+
+.academic-focus-grid,
+.academic-profile-grid,
+.academic-contact-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.academic-focus-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.academic-profile-grid,
+.academic-contact-panel {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.academic-focus-card,
+.academic-profile-grid > div,
+.academic-contact-panel > div,
+.academic-note-strip {
+  border: 1px solid var(--academic-line);
+  border-radius: 8px;
+  background: var(--academic-paper);
+  box-shadow: 0 18px 60px rgba(15, 23, 42, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.academic-focus-card:hover,
+.academic-profile-grid > div:hover,
+.academic-contact-panel > div:hover {
+  box-shadow: 0 25px 80px rgba(15, 23, 42, 0.12);
+  transform: translateY(-2px);
+}
+
+.academic-focus-card,
+.academic-profile-grid > div,
+.academic-contact-panel > div {
+  padding: 1.2rem;
+}
+
+.academic-focus-card:nth-child(1) {
+  border-top: 3px solid var(--academic-teal);
+}
+
+.academic-focus-card:nth-child(2) {
+  border-top: 3px solid var(--academic-gold);
+}
+
+.academic-focus-card:nth-child(3) {
+  border-top: 3px solid var(--academic-rose);
+}
+
+.academic-focus-card h3 {
+  margin: 0.35rem 0 0.55rem;
+  color: var(--academic-ink);
+  font-size: 1.08rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.academic-focus-card p,
+.academic-profile-grid p,
+.academic-contact-panel p,
+.academic-note-strip {
+  color: var(--academic-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.academic-focus-card p {
+  font-size: 0.95rem;
+}
+
+.academic-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--academic-teal);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.academic-note-strip {
+  margin-top: 1rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--academic-teal);
+  border-top: none;
+  background: rgba(15, 118, 110, 0.05);
+}
+
+.academic-contact-panel code {
+  white-space: normal;
+  background: rgba(15, 23, 42, 0.06);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.dark .academic-contact-panel code {
+  background: rgba(226, 232, 240, 0.12);
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  .academic-focus-grid,
+  .academic-profile-grid,
+  .academic-contact-panel {
+    grid-template-columns: 1fr;
+  }
+}

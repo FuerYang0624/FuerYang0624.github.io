@@ -1,58 +1,104 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: ''
-date: 2022-10-24
+summary: 'Fuer Yang | Geophysics researcher specializing in InSAR, crustal deformation, and reproducible geoscience'
+date: 2026-05-16
 type: landing
 
 design:
-  # Default section spacing
-  spacing: '6rem'
+  spacing: '4rem'
 
 sections:
+  # Hero: About & Biography
   - block: resume-biography-3
+    id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
+      text: |-
+        I investigate crustal deformation and earthquake mechanics through satellite geodesy, geological fieldwork, and computational modeling.
+        
+        This site is my academic home: research updates, publications, projects, and a public learning notebook where I share workflows, study notes, and reflections on science and learning.
       button:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: About Me
+        education: Education
+        interests: Research Interests
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: lg
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: large
+        shape: circle
+
+  # Research Focus: 3-column layout
   - block: markdown
+    id: research
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: Research Focus
+      subtitle: Satellite geodesy, active tectonics, and earthquake-related deformation
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        <div class="academic-focus-grid">
+          <section class="academic-focus-card">
+            <p class="academic-kicker">01 / OBSERVATION</p>
+            <h3>InSAR Time-Series Analysis</h3>
+            <p>Extracting reliable deformation signals from SAR data, accounting for atmospheric noise, topographic errors, phase unwrapping artifacts, and uncertainty quantification.</p>
+          </section>
+          <section class="academic-focus-card">
+            <p class="academic-kicker">02 / MECHANISM</p>
+            <h3>Fault Slip & Crustal Deformation</h3>
+            <p>Linking observed surface displacement to subsurface slip, interseismic locking, postseismic relaxation, and regional tectonic loading patterns.</p>
+          </section>
+          <section class="academic-focus-card">
+            <p class="academic-kicker">03 / PRACTICE</p>
+            <h3>Reproducible Geoscience</h3>
+            <p>Organizing data, code, figures, and notes so that results can be verified, extended, and built upon by collaborators and future researchers.</p>
+          </section>
+        </div>
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        <div class="academic-note-strip">
+          <strong>Current research direction:</strong> Update this with your dissertation topic, target region, or primary dataset as your focus solidifies.
+        </div>
     design:
       columns: '1'
+
+  # Academic Profile: Quick Overview
+  - block: markdown
+    id: profile
+    content:
+      title: Academic Profile
+      subtitle: For prospective advisors, collaborators, and curious researchers
+      text: |-
+        <div class="academic-profile-grid">
+          <div>
+            <p class="academic-kicker">Training</p>
+            <p><strong>Geology & Geophysics</strong> across Lanzhou University, Sun Yat-sen University, and SUSTech. Foundational work in field geology, remote sensing, and quantitative analysis.</p>
+          </div>
+          <div>
+            <p class="academic-kicker">Technical Skills</p>
+            <p><strong>Python, MATLAB, GMT, Shell</strong> | <strong>GMTSAR, ISCE/MintPy, GAMMA</strong> | Git-based reproducible workflows, scientific computing, and data visualization.</p>
+          </div>
+          <div>
+            <p class="academic-kicker">Collaboration</p>
+            <p>Open to discussions on <strong>InSAR processing, active tectonics, earthquake deformation modeling, and reproducible research practices</strong>.</p>
+          </div>
+          <div>
+            <p class="academic-kicker">中文简介</p>
+            <p>本主页展示科研经历、出版物、项目、学习笔记。欢迎未来导师、同学和合作者了解我的科研方向和学习风格。</p>
+          </div>
+        </div>
+    design:
+      columns: '1'
+
+  # Featured Publications
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Selected Publications
+      text: Peer-reviewed journal papers, conference contributions, and preprints.
       filters:
         folders:
           - publications
@@ -60,36 +106,57 @@ sections:
     design:
       view: article-grid
       columns: 2
+
+  # All Publications with citations
   - block: collection
     content:
-      title: Recent Publications
-      text: ''
+      title: Publications & Preprints
+      text: A complete record of journal articles, conference papers, preprints, and technical reports.
       filters:
         folders:
           - publications
-        exclude_featured: false
     design:
       view: citation
+
+  # Research Projects
+  - block: collection
+    id: projects
+    content:
+      title: Research Projects
+      text: Active research themes, datasets, code repositories, and field investigation areas.
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+      show_date: false
+      show_read_time: false
+
+  # Talks & Presentations
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks & Presentations
+      text: Seminar presentations, conference talks, posters, and invited discussions.
       filters:
         folders:
           - events
     design:
       view: card
+
+  # Learning Notes
   - block: collection
-    id: news
+    id: notes
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
+      title: Learning Notes & Reflections
+      subtitle: Public research notebook and study log
+      text: |
+        I maintain a public learning notebook documenting research workflows, paper reading notes, technical experiments, and reflections on the process of scientific discovery.
+        These notes are intentionally kept lightweight—easy to update and useful for others working on similar problems.
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
+      count: 6
       filters:
         author: ''
         category: ''
@@ -97,35 +164,36 @@ sections:
         exclude_featured: false
         exclude_future: false
         exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+
+  # Contact & Collaboration
+  - block: markdown
+    id: contact
     content:
-      title: 👉 Build your own academic website like this
+      title: Get in Touch
+      subtitle: Let's collaborate, discuss research, or explore shared interests
       text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+        I welcome conversations with researchers, prospective advisors, students, and colleagues interested in geodesy, geophysics, earthquake mechanics, or open-science practices.
 
-        <a class="github-button" href="https://github.com/HugoBlox/kit" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/kit on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        <div class="academic-contact-panel">
+          <div>
+            <p class="academic-kicker">Direct Email</p>
+            <p><a href="mailto:yangfe0624@gmail.com" style="font-weight: 600;">yangfe0624@gmail.com</a></p>
+          </div>
+          <div>
+            <p class="academic-kicker">Academic & Social Profiles</p>
+            <p>Find me on Google Scholar, ResearchGate, ORCID, GitHub, Bilibili, Douyin. All links are in <a href="#about"><code>data/authors/me.yaml</code></a> for easy updates.</p>
+          </div>
+          <div>
+            <p class="academic-kicker">Website Philosophy</p>
+            <p>Keep public claims accurate and verifiable. Formal achievements go in CV; informal explorations belong in learning notes.</p>
+          </div>
+        </div>
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
+      columns: '1'
 ---

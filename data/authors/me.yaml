@@ -1,108 +1,158 @@
 schema: hugoblox/author/v1
-slug: admin  # 建议改为 admin，方便首页统一调用
+slug: fuer-yang
 is_owner: true
+
 name:
   display: Fuer Yang
   given: Fuer
   family: Yang
-  alternate: '杨俯尔'
-  pronunciation: ''
+  alternate: "杨飞儿"
+  pronunciation: ""
   pronouns: he/him
+
 postnominals:
-  - Ph.D. Candidate
+  - Ph.D. Student
+
 status:
-  icon: "🛰️" # 换成了卫星图标，符合 InSAR
+  icon: "🛰️"
+
 role: Ph.D. Student in Geophysics
 bio: |
-  Fuer Yang is a Ph.D. student at Southern University of Science and Technology (SUSTech).
-  His research focuses on Geodesy and Geophysics, specifically utilizing **InSAR** technology
-  for time-series analysis and **fault slip inversion** to understand earthquake physics.
+  I study crustal deformation and earthquake mechanics through satellite geodesy, field geology, and computational modeling.
+  My work focuses on InSAR time-series analysis, fault slip inversion, and active tectonics in seismically active regions.
+  This site is my long-term academic home: a record of publications, research projects, and a public notebook where I share
+  learning notes, research workflows, and reflections on the science of understanding the solid Earth.
 
 affiliations:
-  - name: Southern University of Science and Technology
+  - name: Southern University of Science and Technology (SUSTech)
     url: https://www.sustech.edu.cn/
 
-# ----------------------------------------------------
-# 🔗 链接修改区 (Links) - 这里就是你要找的地方！
-# ----------------------------------------------------
+# Update these links whenever you create or change public profiles.
+# Academic & professional platforms
 links:
   - icon: at-symbol
-    url: mailto:yangfe0624@gmail.com  # 👈 修改邮箱
-    label: E-mail Me
-  - icon: brands/github
-    url: https://fueryang0624.github.io/  # 👈 修改 GitHub
-    label: GitHub
-  # 如果你有谷歌学术，把下面这两行的 # 去掉并填入链接
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=你的ID
-
+    url: mailto:yangfe0624@gmail.com
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID
+    label: Google Scholar
   - icon: brands/researchgate
-    url: https://www.researchgate.net/profile/Fuer-Yang?ev=hdr_xprf
-    label: Research Gate
+    url: https://www.researchgate.net/profile/Fuer-Yang
+    label: ResearchGate
+  - icon: academicons/orcid
+    url: https://orcid.org/YOUR-ORCID-ID
+    label: ORCID
+  - icon: brands/github
+    url: https://github.com/fueryang0624
+    label: GitHub
+  - icon: brands/bilibili
+    url: https://space.bilibili.com/YOUR_BILIBILI_ID
+    label: Bilibili
+  - icon: brands/tiktok
+    url: https://www.douyin.com/user/YOUR_DOUYIN_ID
+    label: Douyin
+  - icon: brands/weixin
+    url: /#
+    label: "WeChat: yangfe0624"
 
-# ----------------------------------------------------
-# 🔬 研究兴趣 (Interests)
-# ----------------------------------------------------
 interests:
-  - InSAR Time Series Analysis
+  - InSAR Time-Series Analysis
+  - Crustal Deformation
   - Fault Slip Inversion
-  - Geodynamics
+  - Active Tectonics
   - Earthquake Physics
+  - Reproducible Geoscience
 
-# ----------------------------------------------------
-# 🎓 教育背景 (Education) - 已按你的要求完善
-# ----------------------------------------------------
 education:
   - degree: Ph.D. in Geophysics
     institution: Southern University of Science and Technology (SUSTech)
-    start: 2026-01-01  # 请根据实际入学时间修改
-    end: 
+    start: 2026-01-01
+    end:
     summary: |
-      Focusing on crustal deformation and fault mechanics.
+      Researching InSAR time-series analysis, crustal deformation, and fault slip inversion.
+      **Advisor:** [To be filled in]
+      **Lab/Group:** [To be filled in]
+      **Focus area:** Active tectonics and earthquake-related ground deformation
   - degree: M.Sc. in Geology
     institution: Sun Yat-sen University (SYSU)
-    start: 2022-09-05
-    end: 2025-06-08
-    summary: |
-      Research on tectonic geomorphology and deformation.
-  - degree: B.Sc. in Geology
-    institution: Lanzhou University (LZU)
-    start: 2018-09-01
-    end: 2022-06-18
-
-# ----------------------------------------------------
-# 💼 科研经历 (Experience)
-# ----------------------------------------------------
-experience:
-  - role: Graduate Research Assistant
-    org: SUSTech
-    start: 2026-01-01
-    summary: |
-      Conducting research on InSAR data processing using GMTSAR/ISCE.
-  - role: Research Assistant
-    org: Sun Yat-sen University
     start: 2022-09-01
     end: 2025-06-30
     summary: |
-      Participated in geological surveys and tectonic analysis projects.
+      Master's training in tectonic geomorphology, remote-sensing interpretation, and crustal structure analysis.
+      **Thesis:** [To be filled in]
+      **Supervisor:** [To be filled in]
+  - degree: B.Sc. in Geology
+    institution: Lanzhou University (LZU)
+    start: 2018-09-01
+    end: 2022-06-30
+    summary: |
+      Undergraduate foundation in geology, geophysics, field mapping, and earth system science.
 
-# ----------------------------------------------------
-# 🛠️ 技能 (Skills)
-# ----------------------------------------------------
+experience:
+  - role: Graduate Research Assistant
+    org: Southern University of Science and Technology (SUSTech)
+    url: https://www.sustech.edu.cn/
+    start: 2026-01-01
+    end:
+    summary: |
+      Develops InSAR processing workflows, crustal deformation interpretation, and fault slip modeling.
+      Maintains reproducible research notes and open-source scripts for long-term collaboration.
+  - role: Research Assistant
+    org: Sun Yat-sen University (SYSU)
+    url: https://www.sysu.edu.cn/
+    start: 2022-09-01
+    end: 2025-06-30
+    summary: |
+      Participated in active fault mapping, remote-sensing analysis, and tectonic structure surveys.
+      Gained experience in field geology, geomorphic analysis, and quantitative data processing.
+  - role: Undergraduate Geophysics Intern
+    org: Lanzhou University (LZU)
+    url: https://www.lzu.edu.cn/
+    start: 2020-09-01
+    end: 2022-06-30
+    summary: |
+      Foundation in field geology, computational geophysics, and scientific writing.
+
 skills:
-  - name: Technical Skills
+  - name: Research Methods
     items:
-      - label: Python (PyTorch/NumPy)
+      - label: InSAR processing and interpretation
+        level: 5
+      - label: Fault slip inversion
+        level: 4
+      - label: Tectonic geomorphology
+        level: 4
+      - label: Scientific writing
+        level: 4
+  - name: Computational Skills
+    items:
+      - label: Python, NumPy, pandas
         level: 5
       - label: MATLAB
-        level: 5
-      - label: GMT / Shell Script
+        level: 4
+      - label: GMT and shell scripting
+        level: 4
+      - label: Git and reproducible workflows
         level: 4
   - name: Domain Software
     items:
       - label: GMTSAR
         level: 5
-      - label: ISCE
+      - label: ISCE / MintPy
         level: 4
       - label: GAMMA
         level: 3
+
+awards:
+  - title: Example Award or Scholarship
+    date: 2025-06-01
+    awarder: Your University / Society
+    summary: |
+      Add verified scholarships, competitions, conference travel grants, or academic honors here.
+      Keep only achievements you are comfortable making public.
+
+languages:
+  - name: Chinese
+    percent: 100
+  - name: English
+    percent: 85
