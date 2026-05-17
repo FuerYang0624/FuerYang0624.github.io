@@ -41,6 +41,10 @@ imaging:
   anchor: smart
   hint: picture
 timeout: 600000
+ignoreLogs:
+  - 'missing-icon-brands-researchgate'
+  - 'missing-icon-brands-bilibili'
+  - 'missing-icon-brands-tiktok'
 taxonomies:
   author: authors
   tag: tags

@@ -49,10 +49,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
         if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
-          pnpm install --no-frozen-lockfile || npm install
+          echo "Installing dependencies..."
+          pnpm install --no-frozen-lockfile
         fi
 
     - name: Setup Hugo
@@ -92,6 +91,7 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        export PATH="$(pwd)/node_modules/.bin:$PATH"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
     - name: Generate Pagefind search index (if applicable)

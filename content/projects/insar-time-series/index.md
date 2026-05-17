@@ -1,15 +1,17 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: InSAR Time-Series for Crustal Deformation
+date: 2025-10-01
+featured: true
+tags:
+  - InSAR
+  - Crustal Deformation
+  - GMTSAR
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
-tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+    url: https://github.com/fueryang0624
+summary: Multi-temporal Sentinel-1 processing and deformation time-series extraction for active tectonic regions.
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Building a reproducible InSAR pipeline — from SAR acquisition to velocity maps and uncertainty estimates — for studying interseismic and coseismic deformation.
 
 <!--more-->

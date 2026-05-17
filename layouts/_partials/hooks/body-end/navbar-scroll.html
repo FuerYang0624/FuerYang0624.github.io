@@ -1,0 +1,12 @@
+<script>
+  (function () {
+    const header = document.querySelector("header.sticky, #site-header, .navbar");
+    if (!header) return;
+    const onScroll = () => {
+      header.classList.toggle("scrolled", window.scrollY > 24);
+      header.classList.toggle("at-top", window.scrollY <= 24);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  })();
+</script>

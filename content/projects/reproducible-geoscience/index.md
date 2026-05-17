@@ -1,15 +1,17 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: Reproducible Geoscience Workflows
+date: 2025-06-01
+featured: true
+tags:
+  - Open Science
+  - Python
+  - Git
 links:
   - type: site
-    url: https://github.com/scikit-learn/scikit-learn
-tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+    url: https://github.com/fueryang0624
+summary: Version-controlled data, scripted figures, and public notebooks for transparent research.
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Templates and notes for organizing geoscience projects so that figures, tables, and results can be regenerated from raw inputs.
 
 <!--more-->

@@ -6,7 +6,7 @@ name:
   display: Fuer Yang
   given: Fuer
   family: Yang
-  alternate: "杨飞儿"
+  alternate: "杨富尔"
   pronunciation: ""
   pronouns: he/him
 
@@ -16,19 +16,20 @@ postnominals:
 status:
   icon: "🛰️"
 
-role: Ph.D. Student in Geophysics
+role: Ph.D. Student in Geophysics @ SUSTech
 bio: |
-  I study crustal deformation and earthquake mechanics through satellite geodesy, field geology, and computational modeling.
-  My work focuses on InSAR time-series analysis, fault slip inversion, and active tectonics in seismically active regions.
-  This site is my long-term academic home: a record of publications, research projects, and a public notebook where I share
-  learning notes, research workflows, and reflections on the science of understanding the solid Earth.
+  I am a Ph.D. student in geophysics at **Southern University of Science and Technology (SUSTech)**, studying crustal deformation and earthquake mechanics through satellite geodesy, field geology, and computational modeling.
+
+  My research focuses on **InSAR time-series analysis**, **fault slip inversion**, and **active tectonics** in seismically active regions. I aim to build reproducible workflows that connect observations to physical mechanisms.
+
+  Prior to my Ph.D., I received my **M.Sc. in Geology** from Sun Yat-sen University (2025) and **B.Sc. in Geology** from Lanzhou University (2022).
+
+  我是南方科技大学地球物理学博士生，研究方向为 InSAR 时序分析、地壳形变与活动构造。本网站记录论文、项目与公开学习笔记，欢迎交流合作。
 
 affiliations:
   - name: Southern University of Science and Technology (SUSTech)
     url: https://www.sustech.edu.cn/
 
-# Update these links whenever you create or change public profiles.
-# Academic & professional platforms
 links:
   - icon: at-symbol
     url: mailto:yangfe0624@gmail.com
@@ -36,21 +37,18 @@ links:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID
     label: Google Scholar
-  - icon: brands/researchgate
-    url: https://www.researchgate.net/profile/Fuer-Yang
-    label: ResearchGate
   - icon: academicons/orcid
     url: https://orcid.org/YOUR-ORCID-ID
     label: ORCID
   - icon: brands/github
     url: https://github.com/fueryang0624
     label: GitHub
-  - icon: brands/bilibili
-    url: https://space.bilibili.com/YOUR_BILIBILI_ID
-    label: Bilibili
-  - icon: brands/tiktok
-    url: https://www.douyin.com/user/YOUR_DOUYIN_ID
-    label: Douyin
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/YOUR-LINKEDIN
+    label: LinkedIn
+  - icon: brands/twitter
+    url: https://x.com/YOUR_HANDLE
+    label: X / Twitter
   - icon: brands/weixin
     url: /#
     label: "WeChat: yangfe0624"
@@ -69,24 +67,22 @@ education:
     start: 2026-01-01
     end:
     summary: |
-      Researching InSAR time-series analysis, crustal deformation, and fault slip inversion.
+      InSAR time-series analysis, crustal deformation, and fault slip inversion.
       **Advisor:** [To be filled in]
-      **Lab/Group:** [To be filled in]
-      **Focus area:** Active tectonics and earthquake-related ground deformation
+      **Focus:** Active tectonics and earthquake-related ground deformation
   - degree: M.Sc. in Geology
     institution: Sun Yat-sen University (SYSU)
     start: 2022-09-01
     end: 2025-06-30
     summary: |
-      Master's training in tectonic geomorphology, remote-sensing interpretation, and crustal structure analysis.
+      Tectonic geomorphology, remote-sensing interpretation, and crustal structure analysis.
       **Thesis:** [To be filled in]
-      **Supervisor:** [To be filled in]
   - degree: B.Sc. in Geology
     institution: Lanzhou University (LZU)
     start: 2018-09-01
     end: 2022-06-30
     summary: |
-      Undergraduate foundation in geology, geophysics, field mapping, and earth system science.
+      Foundation in geology, geophysics, field mapping, and earth system science.
 
 experience:
   - role: Graduate Research Assistant
@@ -95,23 +91,21 @@ experience:
     start: 2026-01-01
     end:
     summary: |
-      Develops InSAR processing workflows, crustal deformation interpretation, and fault slip modeling.
-      Maintains reproducible research notes and open-source scripts for long-term collaboration.
+      InSAR processing workflows, crustal deformation interpretation, and fault slip modeling.
   - role: Research Assistant
     org: Sun Yat-sen University (SYSU)
     url: https://www.sysu.edu.cn/
     start: 2022-09-01
     end: 2025-06-30
     summary: |
-      Participated in active fault mapping, remote-sensing analysis, and tectonic structure surveys.
-      Gained experience in field geology, geomorphic analysis, and quantitative data processing.
-  - role: Undergraduate Geophysics Intern
+      Active fault mapping, remote-sensing analysis, and tectonic structure surveys.
+  - role: Undergraduate Research Intern
     org: Lanzhou University (LZU)
     url: https://www.lzu.edu.cn/
     start: 2020-09-01
     end: 2022-06-30
     summary: |
-      Foundation in field geology, computational geophysics, and scientific writing.
+      Field geology, computational geophysics, and scientific writing.
 
 skills:
   - name: Research Methods
@@ -144,12 +138,11 @@ skills:
         level: 3
 
 awards:
-  - title: Example Award or Scholarship
+  - title: "[Award Name — update when verified]"
     date: 2025-06-01
-    awarder: Your University / Society
+    awarder: Sun Yat-sen University
     summary: |
-      Add verified scholarships, competitions, conference travel grants, or academic honors here.
-      Keep only achievements you are comfortable making public.
+      Replace with verified scholarships, competitions, or conference travel grants.
 
 languages:
   - name: Chinese

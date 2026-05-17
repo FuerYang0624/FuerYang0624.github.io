@@ -1,22 +1,18 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Languages — English primary, Chinese structure ready for future contentDir split
+# https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  locale: en-us
+  label: English
+  title: Fuer Yang | Academic Homepage
+  params:
+    description: Ph.D. student in geophysics researching InSAR, crustal deformation, and active tectonics.
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Uncomment when you split Chinese content into content/zh/
+# zh:
+#   locale: zh-Hans
+#   label: 中文
+#   title: 杨富尔 | 学术主页
+#   contentDir: content/zh
+#   params:
+#     description: 南方科技大学地球物理学博士生，研究方向为 InSAR 时序分析、地壳形变与活动构造。

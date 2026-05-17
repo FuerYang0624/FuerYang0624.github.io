@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Journal Article Placeholder — Crustal Deformation from InSAR"
 authors:
 - me
 - Robert Ford
@@ -27,7 +27,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 hugoblox:
   ids:

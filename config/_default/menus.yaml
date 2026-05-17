@@ -1,25 +1,22 @@
-# Main navigation for the academic homepage.
-# Homepage sections use anchors such as /#research and /#contact.
+# Main navigation — academic homepage
+# Homepage anchors: /#about, /#news, /#papers, /#projects, /#contact
 
 main:
   - name: About
-    url: /#about
+    url: /about/
     weight: 10
   - name: Research
-    url: /#research
+    url: /research/
     weight: 20
   - name: Publications
-    url: /#papers
+    url: /publications/
     weight: 30
-  - name: Projects
-    url: /#projects
-    weight: 40
-  - name: Notes
+  - name: Blog
     url: /blog/
-    weight: 50
+    weight: 40
   - name: CV
-    url: /uploads/resume.pdf
-    weight: 60
+    url: /cv/
+    weight: 50
   - name: Contact
-    url: /#contact
-    weight: 70
+    url: /contact/
+    weight: 60

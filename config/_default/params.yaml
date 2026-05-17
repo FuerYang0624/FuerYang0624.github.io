@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Geophysics | InSAR | Crustal Deformation"
+    tagline: "Geophysics · InSAR · Active Tectonics"
     # Site meta description for search engines and social sharing
-    description: "Personal academic homepage of Fuer Yang, featuring geophysics research, InSAR time-series analysis, crustal deformation, publications, projects, and study notes."
+    description: "Ph.D. student in geophysics at SUSTech. Research on InSAR time-series analysis, crustal deformation, fault slip inversion, and reproducible geoscience."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
@@ -31,22 +31,17 @@ hugoblox:
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
-    # Optional: Override theme pack colors
+    pack: "academic-ocean"
     colors:
-      primary: "teal"                   # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "amber"
-      neutral: "slate"                  # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
+      primary: "#1A2B4A"
+      secondary: "#3B82F6"
+      neutral: "slate"
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#FAFAF8"
+      foreground: "#1F2937"
       header:
         background: ""
         foreground: ""
@@ -59,9 +54,7 @@ hugoblox:
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: "sans"
-    # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
+    font: "serif"
     size: "md"
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -70,8 +63,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
+    radius: "lg"
     spacing: "comfortable"
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
@@ -95,9 +87,9 @@ hugoblox:
     language_switcher: false
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
-      url: ""
+      enable: true
+      text: "Download CV"
+      url: "/uploads/resume.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -175,15 +167,20 @@ hugoblox:
   search:
     enable: true
     # Trending/suggested search terms
-    suggestions: []
-    # Quick action shortcuts in search modal
+    suggestions:
+      - InSAR
+      - crustal deformation
+      - fault slip
+      - geophysics
     quick_actions:
       - name: Publications
-        url: /#papers
-      - name: Research Notes
+        url: /publications/
+      - name: Research
+        url: /research/
+      - name: Blog
         url: /blog/
       - name: Contact
-        url: /#contact
+        url: /contact/
 
   # ────────────────────────────────────────────────────────────────────────────
   # COMMENTS

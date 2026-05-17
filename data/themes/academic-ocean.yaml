@@ -1,0 +1,43 @@
+# Custom theme: Deep ocean blue × warm white (Scheme A)
+# https://docs.hugoblox.com
+
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Academic Ocean"
+    vendor: "custom"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Refined academic palette — deep navy, warm paper, amber accents"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#1A2B4A"
+      secondary: "#3B82F6"
+      neutral: "slate"
+    surfaces:
+      background: "#FAFAF8"
+      foreground: "#1F2937"
+      header:
+        background: "transparent"
+        foreground: "#1A2B4A"
+      footer:
+        background: "#F3F4F6"
+        foreground: "#1F2937"
+
+  dark:
+    colors:
+      primary: "#60A5FA"
+      secondary: "#F59E0B"
+      neutral: "slate"
+    surfaces:
+      background: "#0F172A"
+      foreground: "#F1F5F9"
+      header:
+        background: "transparent"
+        foreground: "#F8FAFC"
+      footer:
+        background: "#111827"
+        foreground: "#E2E8F0"

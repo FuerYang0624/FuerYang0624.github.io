@@ -1,12 +1,23 @@
 {
-  "name": "hugo-blox-academic-cv-starter",
+  "name": "fuer-yang-academic-site",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
-  "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
+  "description": "Fuer Yang academic homepage (Hugo Blox)",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@tailwindcss/oxide"
+    ],
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "@tailwindcss/oxide"
+    ]
+  },
   "scripts": {
-    "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify && pnpm run pagefind",
+    "dev": "bash scripts/dev.sh",
+    "build": "PATH=\"$(pwd)/node_modules/.bin:$PATH\" hugo --minify && pnpm run pagefind",
+    "deploy": "bash deploy.sh",
     "pagefind": "pagefind --site public"
   },
   "dependencies": {

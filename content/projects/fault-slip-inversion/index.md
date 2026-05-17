@@ -1,15 +1,17 @@
 ---
-title: PyTorch
-date: 2023-10-26
+title: Fault Slip Inversion from Geodetic Data
+date: 2025-08-15
+featured: true
+tags:
+  - Fault Mechanics
+  - InSAR
+  - Modeling
 links:
   - type: site
-    url: https://github.com/pytorch/pytorch
-tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+    url: https://github.com/fueryang0624
+summary: Inverting surface displacement fields for distributed fault slip and exploring resolution limits.
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+Combining InSAR and GNSS observations with elastic dislocation models to estimate fault slip distributions and interseismic locking patterns.
 
 <!--more-->
