@@ -1,38 +1,26 @@
 ---
 title: Contact
-date: 2026-05-17
+date: 2026-05-22
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '3.5rem'
 
 sections:
   - block: contact-info
     content:
-      title: Contact
-      subtitle: Open to research collaboration and academic conversations
-      visit_title: Affiliation
-      connect_title: Connect
+      title: 联系方式
+      subtitle: 欢迎学术交流与合作
+      visit_title: 单位地址
+      connect_title: 在线联系
       address:
         lines:
-          - Southern University of Science and Technology (SUSTech)
-          - Department of Earth and Space Sciences
-          - Shenzhen, Guangdong, China
+          - 南方科技大学 地球与空间科学系
+          - 广东省深圳市南山区学苑大道 1088 号
       office_hours:
-        - "By appointment — email to schedule."
-      email: yangfe0624@gmail.com
+        - "请通过邮件预约"
+      email: yangfe024@gmail.com
       username: me
     design:
-      css_class: academic-section-narrow
-
-  - block: markdown
-    content:
-      text: |-
-        <!-- Visitor map — replace YOUR_ID with your ClustrMaps ID -->
-        <div class="academic-clustrmaps">
-          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=YOUR_ID&cl=ffffff&w=a&t=tt"></script>
-        </div>
-    design:
-      columns: '1'
-      css_class: academic-section-narrow academic-clustrmaps-wrap
+      css_class: ac-narrow
 ---

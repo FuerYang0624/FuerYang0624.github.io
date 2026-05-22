@@ -1,22 +1,19 @@
-# Main navigation — academic homepage
-# Homepage anchors: /#about, /#news, /#papers, /#projects, /#contact
-
 main:
-  - name: About
-    url: /about/
+  - name: 首页
+    url: /
     weight: 10
-  - name: Research
+  - name: 研究
     url: /research/
     weight: 20
-  - name: Publications
+  - name: 论文
     url: /publications/
     weight: 30
-  - name: Blog
+  - name: 笔记
     url: /blog/
     weight: 40
-  - name: CV
+  - name: 简历
     url: /cv/
     weight: 50
-  - name: Contact
+  - name: 联系
     url: /contact/
     weight: 60

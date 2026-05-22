@@ -1,16 +1,13 @@
 ---
-title: "Quick Guide: Updating Your Academic Website"
+title: "网站维护指南"
 authors:
   - me
 date: 2026-05-16
-lastmod: 2026-05-16
+lastmod: 2026-05-22
 tags:
-  - Website
-  - Meta
-  - Tutorial
-categories:
-  - Resources
-summary: "A 5-minute reference guide for adding blog posts, papers, and projects to your academic homepage."
+  - 网站
+  - 教程
+summary: "如何更新这个学术主页：添加博客、论文、项目的操作指南。"
 ---
 
 This guide walks you through the most common updates to your academic website. All examples take 5-10 minutes.

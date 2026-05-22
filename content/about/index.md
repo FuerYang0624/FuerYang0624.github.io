@@ -1,19 +1,19 @@
 ---
 title: About
-date: 2026-05-17
+date: 2026-05-22
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '3.5rem'
 
 sections:
   - block: resume-biography-3
     content:
       username: me
       headings:
-        about: Biography
-        education: Education
-        interests: Research Interests
+        about: 个人简介
+        education: 教育背景
+        interests: 研究兴趣
     design:
       avatar:
         size: large
@@ -22,23 +22,18 @@ sections:
   - block: resume-experience
     content:
       username: me
-      title: Experience
+      title: 经历
     design:
       date_format: 'Jan 2006'
       is_education_first: false
 
-  - block: resume-awards
-    content:
-      title: Awards & Honors
-      username: me
-
   - block: resume-skills
     content:
-      title: Skills
+      title: 技能
       username: me
 
   - block: resume-languages
     content:
-      title: Languages
+      title: 语言
       username: me
 ---

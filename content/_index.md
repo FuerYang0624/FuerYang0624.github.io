@@ -1,33 +1,29 @@
 ---
 title: ''
-summary: 'Fuer Yang | Geophysics · InSAR · Crustal deformation · Active tectonics'
-date: 2026-05-17
+summary: 'Fuer Yang | 地球物理 · InSAR · 同震形变 · 活动构造'
+date: 2026-05-22
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '3.5rem'
 
 sections:
-  # ── Hero: biography, interests, education, social links ──
+  # ── Hero ──
   - block: resume-biography-3
     id: about
     content:
       username: me
       text: |-
-        I investigate crustal deformation and earthquake mechanics through **satellite geodesy**, geological fieldwork, and computational modeling.
-
-        My work centers on **InSAR time-series analysis**, linking surface displacement to fault slip and regional tectonic loading. I care about reproducible geoscience — workflows that others can verify and extend.
-
-        本主页是我的学术名片：论文、项目、学习笔记与科研动态。欢迎未来导师、合作者与同行交流。
+        聚焦于 InSAR 同震形变观测与断层滑动反演，结合地球物理建模与卫星遥感数据，探究地球内部构造与地表变形过程，致力于通过地球物理方法理解和预测自然灾害。
       button:
-        text: Download CV
+        text: 下载简历
         url: uploads/resume.pdf
       headings:
         about: ' '
-        education: Education
-        interests: Research Interests
+        education: 教育背景
+        interests: 研究兴趣
     design:
-      css_class: academic-hero
+      css_class: ac-hero
       background:
         gradient_mesh:
           enable: true
@@ -35,73 +31,113 @@ sections:
         size: lg
       avatar:
         size: xxl
-        shape: circle
+        shape: square
 
-  # ── CTA row ──
-  - block: cta-button-list
+  # ── Research Directions ──
+  - block: markdown
+    id: research
     content:
-      buttons:
-        - text: Download CV
-          url: uploads/resume.pdf
-          icon: document-arrow-down
-        - text: View Research
-          url: /research/
-          icon: academic-cap
+      title: 研究方向
+      subtitle: ''
+      text: |-
+        <div class="ac-research-grid ac-research-4col">
+          <div class="ac-research-card">
+            <div class="ac-card-icon">&#x1F4E1;</div>
+            <h3>InSAR 时序分析</h3>
+            <p>利用时序 InSAR 技术提取地表形变信息，监测地壳运动和构造活动。</p>
+          </div>
+          <div class="ac-research-card">
+            <div class="ac-card-icon">&#x1F30B;</div>
+            <h3>同震形变反演</h3>
+            <p>基于弹性半空间模型反演断层滑动分布，研究强震同震过程。</p>
+          </div>
+          <div class="ac-research-card">
+            <div class="ac-card-icon">&#x26F0;&#xFE0F;</div>
+            <h3>活动构造研究</h3>
+            <p>结合地质与地球物理数据，分析活动断层特征与构造演化。</p>
+          </div>
+          <div class="ac-research-card">
+            <div class="ac-card-icon">&#x1F9E9;</div>
+            <h3>断层力学建模</h3>
+            <p>建立断层力学模型，探索断层破裂机制与应力演化过程。</p>
+          </div>
+        </div>
     design:
-      css_class: academic-cta-row
+      columns: '1'
+      css_class: ac-narrow
 
-  # ── Latest news ──
+  # ── Latest News ──
   - block: markdown
     id: news
     content:
-      title: Latest News
-      subtitle: Research updates and milestones
+      title: 最新动态
+      subtitle: ''
       text: |-
-        <ul class="academic-news-list">
-          <li><span class="academic-news-date">[2026.01]</span> Started Ph.D. in Geophysics at <strong>SUSTech</strong>.</li>
-          <li><span class="academic-news-date">[2025.06]</span> Completed M.Sc. in Geology at <strong>Sun Yat-sen University</strong>.</li>
-          <li><span class="academic-news-date">[2025.10]</span> Conference presentation placeholder on <em>InSAR constraints on active fault deformation</em> — update with venue when confirmed.</li>
-          <li><span class="academic-news-date">[2024.12]</span> <em>Template:</em> Paper accepted at [Venue] — replace when you have a real acceptance.</li>
+        <ul class="ac-news-list">
+          <li><span class="ac-news-date">2026.09</span>入学南方科技大学地空系，开始博士阶段学习</li>
+          <li><span class="ac-news-date">2025.06</span>中山大学构造地质学硕士毕业</li>
+          <li><span class="ac-news-date">2022.06</span>兰州大学地质学学士毕业</li>
         </ul>
     design:
       columns: '1'
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 
-  # ── Research snapshot (links to full page) ──
+  # ── Skills & Tools ──
   - block: markdown
-    id: research-preview
+    id: skills
     content:
-      title: Research Focus
-      subtitle: Satellite geodesy · active tectonics · reproducible workflows
+      title: 技能与工具
+      subtitle: ''
       text: |-
-        <div class="academic-focus-grid">
-          <section class="academic-focus-card">
-            <p class="academic-kicker">01 / Observation</p>
-            <h3>InSAR Time-Series</h3>
-            <p>Reliable deformation signals from SAR — atmospheric correction, unwrapping, and uncertainty.</p>
-          </section>
-          <section class="academic-focus-card">
-            <p class="academic-kicker">02 / Mechanism</p>
-            <h3>Fault Slip & Deformation</h3>
-            <p>Connecting surface displacement to subsurface slip, locking, and postseismic processes.</p>
-          </section>
-          <section class="academic-focus-card">
-            <p class="academic-kicker">03 / Practice</p>
-            <h3>Reproducible Geoscience</h3>
-            <p>Open data, versioned code, and documented workflows for collaboration.</p>
-          </section>
+        <div class="ac-skills-grid">
+          <div class="ac-skills-group">
+            <h4>编程语言</h4>
+            <ul>
+              <li>Python (NumPy, Matplotlib, SciPy)</li>
+              <li>MATLAB</li>
+              <li>Shell / Bash</li>
+              <li>LaTeX</li>
+            </ul>
+          </div>
+          <div class="ac-skills-group">
+            <h4>专业软件</h4>
+            <ul>
+              <li>GMTSAR / ISCE / MintPy</li>
+              <li>GMT (Generic Mapping Tools)</li>
+              <li>QGIS / ArcGIS</li>
+              <li>SAR 数据处理工具链</li>
+            </ul>
+          </div>
+          <div class="ac-skills-group">
+            <h4>研究方法</h4>
+            <ul>
+              <li>InSAR 时序分析</li>
+              <li>断层滑动反演</li>
+              <li>构造地貌分析</li>
+              <li>野外地质调查</li>
+            </ul>
+          </div>
+          <div class="ac-skills-group">
+            <h4>工作流</h4>
+            <ul>
+              <li>Git 版本控制</li>
+              <li>Linux 服务器</li>
+              <li>科学写作 (中/英)</li>
+              <li>数据可视化</li>
+            </ul>
+          </div>
         </div>
-        <p class="academic-section-link"><a href="/research/">Explore full research directions →</a></p>
     design:
       columns: '1'
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 
-  # ── Selected publications (featured only) ──
+  # ── Publications ──
   - block: collection
     id: papers
     content:
-      title: Selected Publications
-      text: Featured papers and preprints. See the [full list](/publications/) for everything.
+      title: 论文发表
+      text: |-
+        暂无正式发表论文，博士期间将持续更新。
       filters:
         folders:
           - publications
@@ -110,33 +146,14 @@ sections:
     design:
       view: article-grid
       columns: 3
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 
-  # ── Featured projects ──
+  # ── Blog / Notes ──
   - block: collection
-    id: projects
+    id: blog
     content:
-      title: Featured Projects
-      text: Research themes, datasets, and code repositories.
-      filters:
-        folders:
-          - projects
-        featured_only: true
-      count: 3
-    design:
-      view: article-grid
-      fill_image: true
-      columns: 3
-      show_date: false
-      show_read_time: false
-      css_class: academic-section-narrow
-
-  # ── Recent blog posts ──
-  - block: collection
-    id: blog-preview
-    content:
-      title: From the Notebook
-      subtitle: Learning notes, workflows, and reflections
+      title: 学习笔记
+      subtitle: 记录科研过程中的学习与思考
       page_type: blog
       count: 3
       filters:
@@ -145,45 +162,34 @@ sections:
       order: desc
     design:
       view: card
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 
-  # ── Short bio ──
-  - block: markdown
-    content:
-      title: About Me
-      text: |-
-        I am a geophysics Ph.D. student trained across **field geology**, **remote sensing**, and **computational modeling**. My path—from Lanzhou University (B.Sc.) to Sun Yat-sen University (M.Sc.) and now SUSTech—reflects a growing focus on quantitative deformation analysis.
-
-        I believe good science is **transparent**: methods documented, data citable, and results reproducible. This site is where I share that work openly.
-
-        <p class="academic-section-link"><a href="/about/">Full biography, experience & skills →</a></p>
-    design:
-      columns: '1'
-      css_class: academic-section-narrow
-
-  # ── Contact teaser ──
+  # ── Contact ──
   - block: markdown
     id: contact
     content:
-      title: Get in Touch
-      subtitle: Collaboration, advising conversations, or shared interests in geodesy
+      title: 联系方式
+      subtitle: ''
       text: |-
-        <div class="academic-contact-panel">
+        <div class="ac-contact-grid">
           <div>
-            <p class="academic-kicker">Email</p>
-            <p><a href="mailto:yangfe0624@gmail.com">yangfe0624@gmail.com</a></p>
+            <p class="ac-label">Email</p>
+            <p><a href="mailto:yangfe024@gmail.com">yangfe024@gmail.com</a></p>
           </div>
           <div>
-            <p class="academic-kicker">Affiliation</p>
-            <p>Southern University of Science and Technology (SUSTech)<br/>Shenzhen, China</p>
+            <p class="ac-label">单位</p>
+            <p>南方科技大学 地球与空间科学系<br/>广东省深圳市南山区学苑大道 1088 号</p>
           </div>
           <div>
-            <p class="academic-kicker">Profiles</p>
-            <p>Google Scholar · GitHub · ORCID · LinkedIn — see icons in the hero section above.</p>
+            <p class="ac-label">微信 / 电话</p>
+            <p>WeChat: YFE0624<br/>Tel: 17339838808</p>
+          </div>
+          <div>
+            <p class="ac-label">学术主页</p>
+            <p><a href="https://scholar.google.com/citations?user=FidaXbUAAAAJ">Google Scholar</a><br/><a href="https://www.researchgate.net/profile/Fuer-Yang">ResearchGate</a><br/><a href="https://github.com/fueryang0624">GitHub</a></p>
           </div>
         </div>
-        <p class="academic-section-link"><a href="/contact/">Contact page →</a></p>
     design:
       columns: '1'
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 ---

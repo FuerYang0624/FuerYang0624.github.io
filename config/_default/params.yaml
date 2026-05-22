@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Geophysics · InSAR · Active Tectonics"
+    tagline: "Geophysics · Coseismic Deformation · InSAR"
     # Site meta description for search engines and social sharing
-    description: "Ph.D. student in geophysics at SUSTech. Research on InSAR time-series analysis, crustal deformation, fault slip inversion, and reproducible geoscience."
+    description: "南方科技大学地球物理学博士生，研究方向为 InSAR 同震形变观测与断层滑动反演。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
@@ -54,7 +54,7 @@ hugoblox:
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    font: "serif"
+    font: "sans"
     size: "md"
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -66,7 +66,7 @@ hugoblox:
     radius: "lg"
     spacing: "comfortable"
     # Avatar shape in author profiles
-    avatar_shape: circle                # circle | square | rounded
+    avatar_shape: square                # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -87,9 +87,9 @@ hugoblox:
     language_switcher: false
     # Call-to-action button
     cta:
-      enable: true
-      text: "Download CV"
-      url: "/uploads/resume.pdf"
+      enable: false
+      text: ""
+      url: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -100,7 +100,7 @@ hugoblox:
     style: minimal                      # minimal | columns | centered
     language_switcher: false
     # Custom footer text (HTML supported)
-    text: "Built as a living academic portfolio. Please cite or link original sources when reusing public notes."
+    text: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -108,7 +108,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. Unless otherwise noted, content is shared for academic communication."
+    notice: "© {year} {name}"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false

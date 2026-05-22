@@ -2,7 +2,6 @@
 title: Publications
 cms_exclude: true
 
-# Citation list grouped by year; filter via publication_types taxonomy
 view: citation
 
 banner:
@@ -10,4 +9,4 @@ banner:
   image: ''
 ---
 
-Publications are organized by year. Use the type filters (journal, conference, preprint) in the sidebar when available. Each entry includes links to PDF, code, slides, and BibTeX when provided.
+暂无正式发表论文。博士期间的研究成果将在此持续更新。

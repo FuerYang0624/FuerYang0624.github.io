@@ -1,24 +1,21 @@
 ---
 title: CV
-date: 2026-05-17
+date: 2026-05-22
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '3.5rem'
 
 sections:
   - block: markdown
     content:
-      title: Curriculum Vitae
-      subtitle: Online résumé — download PDF for applications
+      title: 简历
+      subtitle: ''
       text: |-
-        <p class="academic-cv-actions">
-          <a class="academic-btn academic-btn-primary" href="/uploads/resume.pdf" download>Download PDF</a>
-          <a class="academic-btn academic-btn-ghost" href="/about/">Full profile</a>
-        </p>
+        PDF 版本可通过下方链接下载（待上传）。
     design:
       columns: '1'
-      css_class: academic-section-narrow
+      css_class: ac-narrow
 
   - block: resume-experience
     content:
@@ -29,16 +26,11 @@ sections:
 
   - block: resume-skills
     content:
-      title: Skills
-      username: me
-
-  - block: resume-awards
-    content:
-      title: Awards
+      title: 技能
       username: me
 
   - block: resume-languages
     content:
-      title: Languages
+      title: 语言
       username: me
 ---

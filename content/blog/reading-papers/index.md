@@ -1,109 +1,34 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: 文献阅读记录
+summary: 地震形变与 InSAR 方向的重要文献阅读笔记
+date: 2026-05-20
 authors:
   - me
 tags:
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
-cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
-  position:
-    x: 50
-    y: 40
-  overlay:
-    enabled: true
-    type: "gradient"
-    opacity: 0.4
-    gradient: "bottom"
-  fade:
-    enabled: true
-    height: "80px"
-  icon:
-    name: "✨"
+  - 文献阅读
+  - 地震
+  - InSAR
 ---
 
-Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+记录阅读过程中的关键论文、核心方法和个人理解。
 
-## Ideation
+## 阅读方向
 
-Hugo Blox supports a Markdown extension for mindmaps.
+- 同震形变场观测与建模
+- 断层滑动反演方法
+- InSAR 时序分析技术进展
+- 活动构造与地震危险性
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+## 阅读模板
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+每篇笔记包含：
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
-```
-</code>
-</pre>
-</div>
+1. **论文信息**：作者、年份、期刊
+2. **核心问题**：这篇文章要解决什么问题？
+3. **方法**：用了什么数据和方法？
+4. **主要结论**：关键发现是什么？
+5. **个人思考**：对我的研究有什么启发？
 
-renders as
+---
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - netlify
-  - netlify-cms
-  - slides
-```
-
-## Diagrams
-
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-## Todo lists
-
-You can even write your todo lists in Markdown too:
-
-```markdown
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-
-## Did you find this page helpful? Consider sharing it 🙌
+*将持续补充具体文献笔记。*

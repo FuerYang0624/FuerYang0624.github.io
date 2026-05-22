@@ -1,7 +1,7 @@
 ---
-title: Blog
-summary: Research notes, reading logs, and technical write-ups
+title: 学习笔记
+summary: 科研过程中的学习记录与思考
 view: article-grid
 ---
 
-Learning notes, paper summaries, and workflow documentation — a public research notebook.
+记录科研学习过程中的笔记、文献阅读和技术总结。

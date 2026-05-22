@@ -1,18 +1,16 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: '研究项目'
+date: 2026-05-22
 type: landing
 
 design:
-  # Section spacing
-  spacing: '5rem'
+  spacing: '3.5rem'
 
-# Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: 研究项目
+      text: 当前和过往的研究方向与项目。
       filters:
         folders:
           - projects

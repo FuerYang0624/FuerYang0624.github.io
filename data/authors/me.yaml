@@ -6,7 +6,7 @@ name:
   display: Fuer Yang
   given: Fuer
   family: Yang
-  alternate: "杨富尔"
+  alternate: "杨俯尔"
   pronunciation: ""
   pronouns: he/him
 
@@ -14,17 +14,12 @@ postnominals:
   - Ph.D. Student
 
 status:
-  icon: "🛰️"
+  icon: "🌏"
 
-role: Ph.D. Student in Geophysics @ SUSTech
+role: 地球物理学博士生 / Ph.D. Student in Geophysics
+
 bio: |
-  I am a Ph.D. student in geophysics at **Southern University of Science and Technology (SUSTech)**, studying crustal deformation and earthquake mechanics through satellite geodesy, field geology, and computational modeling.
-
-  My research focuses on **InSAR time-series analysis**, **fault slip inversion**, and **active tectonics** in seismically active regions. I aim to build reproducible workflows that connect observations to physical mechanisms.
-
-  Prior to my Ph.D., I received my **M.Sc. in Geology** from Sun Yat-sen University (2025) and **B.Sc. in Geology** from Lanzhou University (2022).
-
-  我是南方科技大学地球物理学博士生，研究方向为 InSAR 时序分析、地壳形变与活动构造。本网站记录论文、项目与公开学习笔记，欢迎交流合作。
+  聚焦于 InSAR 同震形变观测与断层滑动反演，结合地球物理建模与卫星遥感数据，探究地球内部构造与地表变形过程，致力于通过地球物理方法理解和预测自然灾害。
 
 affiliations:
   - name: Southern University of Science and Technology (SUSTech)
@@ -32,120 +27,97 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:yangfe0624@gmail.com
+    url: mailto:yangfe024@gmail.com
     label: Email
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID
+    url: https://scholar.google.com/citations?user=FidaXbUAAAAJ&hl=zh-CN
     label: Google Scholar
-  - icon: academicons/orcid
-    url: https://orcid.org/YOUR-ORCID-ID
-    label: ORCID
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Fuer-Yang
+    label: ResearchGate
   - icon: brands/github
     url: https://github.com/fueryang0624
     label: GitHub
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/YOUR-LINKEDIN
-    label: LinkedIn
-  - icon: brands/twitter
-    url: https://x.com/YOUR_HANDLE
-    label: X / Twitter
   - icon: brands/weixin
     url: /#
-    label: "WeChat: yangfe0624"
+    label: "WeChat: YFE0624"
 
 interests:
-  - InSAR Time-Series Analysis
-  - Crustal Deformation
-  - Fault Slip Inversion
-  - Active Tectonics
-  - Earthquake Physics
-  - Reproducible Geoscience
+  - InSAR 时序分析
+  - 同震形变反演
+  - 活动构造
+  - 断层力学
+  - 可复现地球科学
 
 education:
   - degree: Ph.D. in Geophysics
     institution: Southern University of Science and Technology (SUSTech)
-    start: 2026-01-01
+    start: 2026-09-01
     end:
     summary: |
-      InSAR time-series analysis, crustal deformation, and fault slip inversion.
-      **Advisor:** [To be filled in]
-      **Focus:** Active tectonics and earthquake-related ground deformation
+      InSAR 同震形变观测、断层滑动反演与地震物理。
+      导师：陈克杰
   - degree: M.Sc. in Geology
     institution: Sun Yat-sen University (SYSU)
     start: 2022-09-01
     end: 2025-06-30
     summary: |
-      Tectonic geomorphology, remote-sensing interpretation, and crustal structure analysis.
-      **Thesis:** [To be filled in]
+      构造地质学，活动断裂带构造地貌与遥感解译。
   - degree: B.Sc. in Geology
     institution: Lanzhou University (LZU)
     start: 2018-09-01
     end: 2022-06-30
     summary: |
-      Foundation in geology, geophysics, field mapping, and earth system science.
+      地质学基础，野外地质填图，地球系统科学。
 
 experience:
   - role: Graduate Research Assistant
     org: Southern University of Science and Technology (SUSTech)
     url: https://www.sustech.edu.cn/
-    start: 2026-01-01
+    start: 2026-09-01
     end:
     summary: |
-      InSAR processing workflows, crustal deformation interpretation, and fault slip modeling.
+      InSAR 数据处理、同震形变场提取与断层滑动分布反演。
   - role: Research Assistant
     org: Sun Yat-sen University (SYSU)
     url: https://www.sysu.edu.cn/
     start: 2022-09-01
     end: 2025-06-30
     summary: |
-      Active fault mapping, remote-sensing analysis, and tectonic structure surveys.
-  - role: Undergraduate Research Intern
-    org: Lanzhou University (LZU)
-    url: https://www.lzu.edu.cn/
-    start: 2020-09-01
-    end: 2022-06-30
-    summary: |
-      Field geology, computational geophysics, and scientific writing.
+      活动断裂填图、构造地貌分析与遥感解译。
 
 skills:
-  - name: Research Methods
+  - name: 研究方法
     items:
-      - label: InSAR processing and interpretation
-        level: 5
-      - label: Fault slip inversion
+      - label: InSAR 处理与解译
         level: 4
-      - label: Tectonic geomorphology
+      - label: 断层滑动反演
+        level: 3
+      - label: 构造地貌分析
         level: 4
-      - label: Scientific writing
+      - label: 科学写作
         level: 4
-  - name: Computational Skills
+  - name: 编程与工具
     items:
-      - label: Python, NumPy, pandas
-        level: 5
+      - label: Python (NumPy, Matplotlib)
+        level: 4
       - label: MATLAB
         level: 4
-      - label: GMT and shell scripting
+      - label: GMT / Shell
         level: 4
-      - label: Git and reproducible workflows
-        level: 4
-  - name: Domain Software
+      - label: Git
+        level: 3
+  - name: 专业软件
     items:
       - label: GMTSAR
-        level: 5
-      - label: ISCE / MintPy
         level: 4
-      - label: GAMMA
+      - label: ISCE / MintPy
         level: 3
-
-awards:
-  - title: "[Award Name — update when verified]"
-    date: 2025-06-01
-    awarder: Sun Yat-sen University
-    summary: |
-      Replace with verified scholarships, competitions, or conference travel grants.
+      - label: GAMMA
+        level: 2
 
 languages:
-  - name: Chinese
+  - name: 中文
     percent: 100
   - name: English
-    percent: 85
+    percent: 80
